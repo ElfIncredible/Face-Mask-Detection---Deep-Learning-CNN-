@@ -6,6 +6,21 @@ This project involves building a Convolutional Neural Network (CNN) to classify 
 - [Problem Statement](#problem-statement)
 - [Dataset](#dataset)
 - [Deep Learning](#deep-learning)
+  - [Install and Configure Kaggle API](#install-and-configure-kaggle-api)
+  - [Import Required Libraries](#import-required-libraries)
+  - [Load Dataset](#load-dataset)
+  - [Label Creation](#label-creation)
+  - [Display Sample Images](#display-sample-images)
+  - [Preprocess Images](#preprocess-images)
+  - [Combine Data and Labels](#combine-data-and-labels)
+  - [Train-Test Split](#train-test-split)
+  - [Scale the Image Data](#scale-the-image-data)
+  - [Build the CNN Model](#build-the-cnn-model)
+  - [Compile the Model](#compile-the-model)
+  - [Train the Model](#train-the-model)
+  - [Evaluate the Model](#evaluate-the-model)
+  - [Plot Loss and Accuracy](#plot-loss-and-accuracy)
+  - [Make Predictions on New Images](#make-predictions-on-new-images)
 - [Results and Impact](#results-and-impact)
 - [Future Improvements](#future-improvements)
 
@@ -96,6 +111,10 @@ The dataset contains a diverse set of images with varying backgrounds, lighting 
 - Accept a user input for an image path.
 - Preprocess the image (resize and normalize), and use the trained model to predict whether the person is wearing a mask.
 - Display the input image and prediction result.
+
+![image](https://github.com/user-attachments/assets/4aa5b579-dcff-4643-9f90-f54812e1519f)
+
+![image](https://github.com/user-attachments/assets/4a39d133-6b1c-4b78-8258-11986309aa28)
 
 ## Results and Impact
 **Results:**
