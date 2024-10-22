@@ -6,6 +6,8 @@ This project involves building a Convolutional Neural Network (CNN) to classify 
 - [Problem Statement](#problem-statement)
 - [Dataset](#dataset)
 - [Deep Learning](#deep-learning)
+- [Results and Impact](#results-and-impact)
+- [Future Improvements](#future-improvements)
 
 ## Project Overview
 The Face Mask Detection project uses a Convolutional Neural Network (CNN) to classify images as either with mask or without mask. The dataset contains 7,553 images, and the images were resized, labeled, and split into training and testing sets. The model, built using TensorFlow and Keras, includes convolutional and dense layers with dropout for regularization. After training, the model achieved high accuracy in predicting mask usage and can be used for monitoring public health compliance.
@@ -94,3 +96,21 @@ The dataset contains a diverse set of images with varying backgrounds, lighting 
 - Accept a user input for an image path.
 - Preprocess the image (resize and normalize), and use the trained model to predict whether the person is wearing a mask.
 - Display the input image and prediction result.
+
+## Results and Impact
+**Results:**
+- The Convolutional Neural Network (CNN) achieved high accuracy in detecting whether a person is wearing a mask. After training the model for 5 epochs, the test accuracy demonstrated reliable performance in classifying images into the two categories: with mask and without mask.
+- Loss and accuracy plots indicated a stable training process with both training and validation metrics improving over time.
+
+**Impact:**
+- **Automation** of Mask Detection: This system can be implemented in public areas, surveillance systems, or healthcare environments to automatically detect whether individuals are following mask-wearing protocols.
+- **Public Health Support:** By enabling real-time detection of mask usage, this model can help in ensuring compliance with health regulations during pandemics or other health crises, reducing the need for manual monitoring.
+- **Scalable Solution:** The model can be integrated into various platforms, such as CCTV systems or mobile devices, to enhance safety in high-traffic areas, improving overall public safety and health measures.
+
+## Future Improvements
+- **Model Enhancement:**
+  - Implement deeper CNN architectures and utilize transfer learning with pretrained models to boost accuracy, particularly in challenging scenarios.
+- **Real-Time and Edge Detection:**
+  - Optimize the model for real-time detection and integrate it with live video feeds while reducing computational complexity for deployment on edge devices.
+- **Expanded Functionality:**
+  - Enhance detection capabilities to identify improper mask usage and incorporate additional data sources, such as temperature readings and emotion analysis, for comprehensive health monitoring.
